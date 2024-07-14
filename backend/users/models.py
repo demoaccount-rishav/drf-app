@@ -9,6 +9,9 @@ from users.models import User
     "userEmail": "sourav@gmail.com",
     "userPass": "sourav22454"
 }
+
+// userEmail-password
+// mobile-password
 User.objects.create(userName= "Sourav Singh", userNumber= "9876543211", userEmail= "sourav@gmail.com", userPass= "sourav22454")
 User.objects.create(userName= "Gaurav Singh", userNumber= "9876543222", userEmail= "gaurav@gmail.com", userPass= "gaurav22584")
 User.objects.all().delete()

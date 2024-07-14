@@ -33,7 +33,7 @@ def api_user_signup(request):
             return Response(finalData, status=201)
 
     else:
-        return Response({'msg': 'feature under construction'}, status=201)
+        return Response({'msg': 'feature under construction'}, status=200)
         '''
         try:
             user = User.objects.get(pk=pk)
